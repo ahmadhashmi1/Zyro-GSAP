@@ -103,12 +103,12 @@ nav #zyro-logo{
 }
 /*added all cans*/
 #masala-cola{
-    width: 35vh;
+    width: 63vh;
     position: absolute;
-    left: 41%;
-    top: 15%;
-    z-index: 2;
-    
+    left: 34%;
+    top: 22%;
+   opacity: 1;
+    z-index: 2;  
 }
 #vita-cola{
     width: 35vh;
@@ -119,22 +119,21 @@ nav #zyro-logo{
     z-index: 2;
 }
 #zeera-cola{
-    width: 65vh;
+    width: 63vh;
     position: absolute;
     left: 33%;
     top: 22%;
    opacity: 0;
     z-index: 2;
 }
-#blue-bolt{
-    width: 35vh;
+#blue-boolt{
+    width: 63vh;
     position: absolute;
-    left: 41%;
-    top: 15%;
-    opacity: 0;
+    left: 33%;
+    top: 22%;
+   opacity: 0;
     z-index: 2;
 }
-
 #ginger-ale{
     width: 65vh;
     position: absolute;
@@ -177,6 +176,26 @@ nav #zyro-logo{
     top: 109.5%;
     rotate: 12deg;
     opacity: 0;
+    transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skewX(-12deg);
+    z-index: 1;
+}
+
+#bolt-zero{
+    position: absolute;
+    width: 420px;
+    left: 50.5%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0;
+}
+#bolt-zero1{
+    position: absolute;
+    width: 510px;
+    left: 24%;
+    top: 108.5%;
+    rotate: 12deg;
+   opacity: 0;
     transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skewX(-12deg);
     z-index: 1;
 }
