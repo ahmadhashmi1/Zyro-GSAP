@@ -1,0 +1,167 @@
+@font-face {
+    font-family: Product Sans;
+    src: url(Fonts\product-sans-bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+html,body{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 80px; /* NEW — compensates for fixed navbar height so content isn't hidden underneath it */
+}
+
+/* NAVBAR */
+
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;   /* CHANGED from relative — keeps navbar visible at all times during scroll/pin */
+    top: 0;
+    left: 0;
+    padding: 0 60px;
+    z-index: 10;        /* NEW — ensures navbar stays above the pinned hero section */
+    background-color:#fff/* change to #fff or your preferred color if you want a solid navbar background */
+}
+nav #logo{
+    position: absolute;
+    left: 60px;
+    z-index: 2;
+}
+nav #zyro-logo{
+    width: 55%;
+    height: auto;
+    display: block;
+}
+.nav-links{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+    z-index: 2;
+    font-family: Product Sans B;
+    font-size: 20px;
+  
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgba(186, 31, 51); 
+}
+.first{
+    width: calc(100% - 100px); /*giving space from sides*/
+    height: calc(100vh - 80px);/*giving navbar space from top*/
+    margin: 0 auto;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  
+    --grad-1: rgb(35, 4, 4);
+    --grad-2: rgb(75, 8, 10);
+    --grad-3: rgb(110, 16, 20);
+    background: linear-gradient(130deg, var(--grad-1) 0%, var(--grad-2) 55%, var(--grad-3) 100%);
+}
+
+
+#zyro-0{
+    
+        position: absolute;
+        width: 420px;
+        left: 50.5%;
+        top: 35%;
+        filter: brightness(0.4);
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    #zyro-00{
+        position: absolute;
+        width: 520px;
+        left: 24%;
+        top: 105.5%;
+        rotate: 12deg;
+        filter: brightness(0.9);
+        transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skewX(-12deg);
+        z-index: 1;
+    }
+  
+.first h1{
+    font-size: 5rem;
+    z-index: 2;
+    position: absolute;
+    top: 4%;
+    left: 38%;
+    color: rgba(219, 50, 55);
+}
+/*added all cans*/
+#masala-cola{
+    width: 35vh;
+    position: absolute;
+    left: 42%;
+    top: 15%;
+    z-index: 2;
+    
+}
+#vita-cola{
+    width: 35vh;
+    position: absolute;
+    left: 42%;
+    top: 15%;
+    opacity: 0;
+    z-index: 2;
+}
+#zeera-cola{
+    width: 65vh;
+    position: absolute;
+    left: 34%;
+    top: 22%;
+   opacity: 0;
+    z-index: 2;
+}
+#blue-bolt{
+    width: 35vh;
+    position: absolute;
+    left: 42%;
+    top: 15%;
+    opacity: 0;
+    z-index: 2;
+}
+
+#ginger-ale{
+    width: 65vh;
+    position: absolute;
+    left: 34%;
+    top: 22%;
+   opacity: 0;
+    z-index: 2;
+}
+#tonic-water{
+    width: 65vh;
+    position: absolute;
+    left: 34%;
+    top: 22%;
+   opacity: 0;
+    z-index: 2;
+}
+#berry-blast{
+    width: 65vh;
+    position: absolute;
+    left: 34%;
+    top: 22%;
+   opacity: 0;
+    z-index: 2;
+}
