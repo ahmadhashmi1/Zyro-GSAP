@@ -16,8 +16,10 @@ tl.to("#masala-cola", {
     motionPath: {
         path: [
             { x: "0%",    y: "0vh" },
-            { x: "-60%",  y: "5vh" },
-            { x: "-140%", y: "35vh" },
+            { x: "-40%",  y: "0.5vh" },
+            { x: "-75%",  y: "2vh" },
+            { x: "-130%", y: "12vh" },
+            { x: "-180%", y: "35vh" },
             { x: "-220%", y: "80vh" }
         ],
         curviness: 1.5   // higher = smoother/rounder curve between points
@@ -31,16 +33,16 @@ tl.to("#masala-cola", {
 .fromTo("#zeera-cola",
     { x: "140%", opacity: 0 },
     { x: "0%", opacity: 1, duration: 1.2, ease: "power2.out" },
-    "<0.2"
+    "<0.8"
 )
-.to("#first", {
-    backgroundColor: "#5b5e31",
-    duration: 1,
+.to(".first", {
+    backgroundColor: "rgb(255, 255, 195)",
+    duration: 0.8,
     ease: "power1.inOut"
 },"<")
 .to("#heading",{
-    color: "rgb(228, 219, 30)",
-    duration: 1,
+    color: "rgb(107, 112, 46)",
+    duration: 0.8,
     ease: "power1.inOut"
 },"<")
 .to(".first", {
@@ -48,11 +50,26 @@ tl.to("#masala-cola", {
     "--grad-2": "rgb(99, 96, 45)",   // chalky off-white
     "--grad-3": "rgb(173, 167, 47)",   // muted warm grey
     
-    duration: 1,
+    duration: 0.8,
     ease: "power1.inOut"
 }, "<")
 .to("#zyro-0", {
-    opacity: 0.2,
-    duration: 1,
+     opacity: 0,
+    duration: 0.8,
     ease: "power1.inOut"
 }, "<")
+.to("#zeera-zero",{
+  opacity: 1,
+  duration: 0.8,
+  ease: "power1.inOut"
+},"<")
+.to("#zyro-00",{
+    opacity: 0,
+    duration: 0.8,
+    ease: "power.inOut",
+},"<")
+.to("#zeera-zero1",{
+    opacity: 1,
+    duration: 0.8,
+    ease: "power1.inOut"
+  },"<")

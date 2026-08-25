@@ -70,11 +70,7 @@ nav #zyro-logo{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-  
-    --grad-1: rgb(35, 4, 4);
-    --grad-2: rgb(75, 8, 10);
-    --grad-3: rgb(110, 16, 20);
-    background: linear-gradient(130deg, var(--grad-1) 0%, var(--grad-2) 55%, var(--grad-3) 100%);
+    background-color: rgb(237, 244, 213);
 }
 
 
@@ -83,22 +79,20 @@ nav #zyro-logo{
         position: absolute;
         width: 420px;
         left: 50.5%;
-        top: 35%;
-        filter: brightness(0.4);
+        top: 38%;
         transform: translate(-50%, -50%);
         z-index: 1;
     }
     #zyro-00{
-        position: absolute;
-        width: 520px;
-        left: 24%;
-        top: 105.5%;
-        rotate: 12deg;
-        filter: brightness(0.9);
-        transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skewX(-12deg);
-        z-index: 1;
-    }
-  
+           position: absolute;
+           width: 510px;
+           left: 24%;
+           top: 108.5%;
+           rotate: 12deg;
+          
+           transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skewX(-12deg);
+           z-index: 1;
+       }
 .first h1{
     font-size: 5rem;
     z-index: 2;
@@ -111,7 +105,7 @@ nav #zyro-logo{
 #masala-cola{
     width: 35vh;
     position: absolute;
-    left: 42%;
+    left: 41%;
     top: 15%;
     z-index: 2;
     
@@ -119,7 +113,7 @@ nav #zyro-logo{
 #vita-cola{
     width: 35vh;
     position: absolute;
-    left: 42%;
+    left: 41%;
     top: 15%;
     opacity: 0;
     z-index: 2;
@@ -127,7 +121,7 @@ nav #zyro-logo{
 #zeera-cola{
     width: 65vh;
     position: absolute;
-    left: 34%;
+    left: 33%;
     top: 22%;
    opacity: 0;
     z-index: 2;
@@ -135,7 +129,7 @@ nav #zyro-logo{
 #blue-bolt{
     width: 35vh;
     position: absolute;
-    left: 42%;
+    left: 41%;
     top: 15%;
     opacity: 0;
     z-index: 2;
@@ -144,7 +138,7 @@ nav #zyro-logo{
 #ginger-ale{
     width: 65vh;
     position: absolute;
-    left: 34%;
+    left: 33%;
     top: 22%;
    opacity: 0;
     z-index: 2;
@@ -152,7 +146,7 @@ nav #zyro-logo{
 #tonic-water{
     width: 65vh;
     position: absolute;
-    left: 34%;
+    left: 33%;
     top: 22%;
    opacity: 0;
     z-index: 2;
@@ -160,8 +154,29 @@ nav #zyro-logo{
 #berry-blast{
     width: 65vh;
     position: absolute;
-    left: 34%;
+    left: 33%;
     top: 22%;
    opacity: 0;
     z-index: 2;
+}
+/*      zyro-0's         */
+#zeera-zero{
+     
+    position: absolute;
+    width: 420px;
+    left: 50.5%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0;
+}
+#zeera-zero1{
+    position: absolute;
+    width: 520px;
+    left: 23.5%;
+    top: 109.5%;
+    rotate: 12deg;
+    opacity: 0;
+    transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skewX(-12deg);
+    z-index: 1;
 }
