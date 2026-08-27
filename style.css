@@ -111,13 +111,15 @@ nav #zyro-logo{
     z-index: 2;  
 }
 #vita-cola{
-    width: 35vh;
+    width: 63vh;
     position: absolute;
-    left: 41%;
-    top: 15%;
-    opacity: 0;
-    z-index: 2;
+    left: 34%;
+    top: 22%;
+   opacity: 1;
+    z-index: 2;  
 }
+
+
 #zeera-cola{
     width: 63vh;
     position: absolute;
@@ -214,6 +216,64 @@ nav #zyro-logo{
     left: 24%;
     top: 108.5%;
     rotate: 12deg; 
+    opacity: 0;
+    transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skew(-12deg);
+    z-index: 1;
+}
+#ginger-zero{
+    position: absolute;
+    width: 420px;
+    left: 50.5%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0;
+}
+#ginger-zero1{
+    position: absolute;
+    width: 512px;
+    left: 24%;
+    top: 108.5%;
+    rotate: 12deg;
+    opacity: 0;
+    transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skew(-12deg);
+    z-index: 1;
+}
+
+#tonic-zero{
+    position: absolute;
+    width: 420px;
+    left: 50.5%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0;
+}
+#tonic-zero1{
+    position: absolute;
+    width: 512px;
+    left: 24%;
+    top: 108.5%;
+    rotate: 12deg;
+    opacity: 0;
+    transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skew(-12deg);
+    z-index: 1;
+}
+#vita-zero{
+    position: absolute;
+    width: 420px;
+    left: 50.5%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0;
+}
+#vita-zero1{
+    position: absolute;
+    width: 512px;
+    left: 24%;
+    top: 108.5%;
+    rotate: 12deg;
     opacity: 0;
     transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skew(-12deg);
     z-index: 1;
