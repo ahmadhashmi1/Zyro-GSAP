@@ -126,3 +126,77 @@ tl.to("#masala-cola", {
     duration: 1.5,
     ease: "power1.inOut"
 })
+.fromTo("#berry-blast",
+    {
+        x:"140%",
+        opacity:0,
+    },
+    {
+        x:"0%",
+        opacity:1,
+        duration:1.5,
+        ease:"power2.out"
+    },
+    "<0.8"
+)
+.to(".first",{
+    backgroundColor:"rgb(237, 185, 223)",
+    duration: 0.8,
+    ease :"power1.inOut",
+},"<")
+.to("#heading",{
+    color:"rgb(126, 36, 71)",
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
+.to("#berry-zero",{
+    opacity: 1,
+    duration: 0.8,
+    ease: "poer1.inOut",
+},"<")
+.to("#berry-zero1",{
+    opacity:1,
+    duration:0.8,
+    ease:"power1.inOut",
+},"<")
+.to("#berry-blast", {
+    motionPath: {
+        path: [
+            { x: "0%",    y: "0vh" },
+            { x: "-40%",  y: "0.5vh" },
+            { x: "-75%",  y: "2vh" },
+            { x: "-130%", y: "12vh" },
+            { x: "-180%", y: "35vh" },
+            { x: "-220%", y: "80vh" }
+        ],
+        curviness: 1.5
+    },
+    opacity: 0,
+    duration: 1.5,
+    ease: "power1.inOut"
+})
+
+
+.fromTo("#ginger-ale",
+    {
+        x: "140%",
+        opacity: 0
+    },
+    {
+        x: "0%",
+        opacity: 1,
+        duration: 1.5,
+        ease: "power2.out"
+    },
+    "<0.8"
+)
+.to(".first",{
+    backgroundColor:"rgb(243, 243, 215)",
+    duration: 0.8,
+    ease :"power1.inOut",
+},"<")
+.to("#heading",{
+    color:"rgb(107, 112, 46)",
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
