@@ -378,3 +378,167 @@ tl.to("#masala-cola", {
     duration: 1.5,
     ease: "power1.inOut"
 })
+.fromTo("#apple",
+    {
+        x: "140%",
+        opacity:0
+    },
+    {
+        x: "0%",
+        opacity:1,
+        duration:1.5,
+        ease:"power2.out"
+    },
+    "<0.8"
+)
+.to(".first",{
+    backgroundColor:"rgb(246, 255, 208)",
+    duration:0.8,
+    ease:"power1.inOut"
+},"<")
+.to("#heading",{
+    color:"rgb(75, 92, 0)",
+    duration:0.8,
+    ease:"power1.inOut"
+},"<")
+
+.to("#vita-zero",{
+    opacity:0,
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
+.to("#apple-zero",{
+    opacity:1,
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
+.to("#vita-zero1",{
+    opacity:0,
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
+.to("#apple-zero1",{
+    opacity:1,
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
+.to("#apple",{
+    motionPath:{
+        path:[
+            { x: "0%",    y: "0vh" },
+            { x: "-40%",  y: "0.5vh" },
+            { x: "-75%",  y: "2vh" },
+            { x: "-130%", y: "12vh" },
+            { x: "-180%", y: "35vh" },
+            { x: "-220%", y: "80vh" }
+        ],
+        curviness: 1.5
+    },
+    opacity: 0,
+    duration: 1.5,
+    ease: "power1.inOut"
+})
+.fromTo("#strawmellon",
+    {
+        x: "140%",
+        opacity:0
+    },
+    {
+        x: "0%",
+        opacity:1,
+        duration:1.5,
+        ease:"power2.out"
+    },
+    "<0.8"
+)
+.to(".first",{
+    backgroundColor:"rgb(251, 231, 230)",
+    duration:0.8,
+    ease:"power1.inOut"
+},"<")
+.to("#heading",{
+    color:"rgb(183, 0, 49)",
+    duration:0.8,
+    ease:"power1.inOut"
+},"<")
+
+.to("#apple-zero",{
+    opacity:0,
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
+.to("#strawmellon-zero",{
+    opacity:1,
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
+.to("#apple-zero1",{
+    opacity:0,
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
+.to("#strawmellon-zero1",{
+    opacity:1,
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
+.to("#strawmellon",{
+    motionPath:{
+        path:[
+            { x: "0%",    y: "0vh" },
+            { x: "-40%",  y: "0.5vh" },
+            { x: "-75%",  y: "2vh" },
+            { x: "-130%", y: "12vh" },
+            { x: "-180%", y: "35vh" },
+            { x: "-220%", y: "80vh" }
+        ],
+        curviness: 1.5
+    },
+    opacity: 0,
+    duration: 1.5,
+    ease: "power1.inOut"
+})
+.fromTo("#lime",
+    {
+        x: "140%",
+        opacity:0
+    },
+    {
+        x: "0%",
+        opacity:1,
+        duration:1.5,
+        ease:"power2.out"
+    },
+    "<0.8"
+)
+.to(".first",{
+    backgroundColor:"rgb(255, 255, 255)",
+    duration:0.8,
+    ease:"power1.inOut"
+},"<")
+.to("#heading",{
+    color:"rgb(99, 74, 155)",
+    duration:0.8,
+    ease:"power1.inOut"
+},"<")
+
+.to("#strawmellon-zero",{
+    opacity:0,
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
+.to("#lime-zero",{
+    opacity:1,
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
+.to("#strawmellon-zero1",{
+    opacity:0,
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")
+.to("#lime-zero1",{
+    opacity:1,
+    duration: 0.8,
+    ease: "power1.inOut",
+},"<")

@@ -111,11 +111,11 @@ nav #zyro-logo{
     z-index: 2;  
 }
 #vita-cola{
-    width: 63vh;
+    width: 66vh;
     position: absolute;
     left: 34%;
     top: 22%;
-   opacity: 1;
+   opacity: 0;
     z-index: 2;  
 }
 
@@ -269,6 +269,88 @@ nav #zyro-logo{
     opacity: 0;
 }
 #vita-zero1{
+    position: absolute;
+    width: 512px;
+    left: 24%;
+    top: 108.5%;
+    rotate: 12deg;
+    opacity: 0;
+    transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skew(-12deg);
+    z-index: 1;
+}
+#strawmellon{
+    width: 60vh;
+    top: 25%;
+    left: 34%;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+}
+#apple{
+    width: 60vh;
+    top: 25%;
+    left: 34%;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+}
+#lime{
+     width:39vh;
+    top: 20%;
+    left: 40%;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+}
+#apple-zero{
+    position: absolute;
+    width: 420px;
+    left: 50.5%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0;
+}
+#apple-zero1{
+    position: absolute;
+    width: 512px;
+    left: 24%;
+    top: 108.5%;
+    rotate: 12deg;
+    opacity: 0;
+    transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skew(-12deg);
+    z-index: 1;
+}
+#strawmellon-zero{
+    position: absolute;
+    width: 420px;
+    left: 50.5%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0;
+}
+#strawmellon-zero1{
+    position: absolute;
+    width: 512px;
+    left: 24%;
+    top: 108.5%;
+    rotate: 12deg;
+    opacity: 0;
+    transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skew(-12deg);
+    z-index: 1;
+}
+
+#lime-zero{
+    position: absolute;
+    width: 420px;
+    left: 50.5%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0;
+}
+#lime-zero1{
     position: absolute;
     width: 512px;
     left: 24%;
