@@ -58,7 +58,7 @@ nav #zyro-logo{
 }
 .nav-links a{
     text-decoration: none;
-    color: rgba(186, 31, 51); 
+    color: rgb(186, 31, 51); 
 }
 .first{
     width: calc(100% - 100px); /*giving space from sides*/
@@ -359,4 +359,37 @@ nav #zyro-logo{
     opacity: 0;
     transform: translateY(-50%) scaleY(0.93) rotateX(0deg) skew(-12deg);
     z-index: 1;
+}
+.second{
+    width: calc(100% - 100px); /*giving space from sides*/
+    min-height: calc(100vh - 80px);/*giving navbar space from top*/
+    margin: 0 auto;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 106, 116);
+}
+.second h2{
+    font-size: 5rem;
+    text-align: center;
+    margin: 4vh 0 2vh 0;
+    color: rgba(186, 31, 51);
+    letter-spacing: 3px;
+}
+.grid-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5vh 3vw;
+    padding: 0 4vw 6vh 4vw;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-bottom: 20px;
 }
