@@ -368,7 +368,7 @@ nav #zyro-logo{
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: rgb(31, 106, 116);
+    background-color:#FCFAF1;
 }
 .second h2{
     font-size: 5rem;
@@ -379,17 +379,148 @@ nav #zyro-logo{
 }
 .grid-cards{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(5,1fr);
     gap: 5vh 3vw;
-    padding: 0 4vw 6vh 4vw;
+    padding: 0 4vw;
 }
 .cards{
     width: 100%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    background-color: #fff;
+  
     border-radius: 12px;
     overflow: hidden;
     padding-bottom: 20px;
+}
+
+.card-img-wrap{
+    position: relative;
+    width: 100%;
+    height: 260px;
+    
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.card-pattern-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover; 
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.card-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.cards:hover .card-pattern-bg{
+    opacity: 1;
+    
+}
+.cards:hover .zeera-pattern{
+ background-color: rgb(107, 112, 46);
+    
+}
+.cards:hover .cola-pattern{
+    background-color: rgb(107, 112, 46);
+       
+   }
+.cards:hover .ginger-pattern{
+    background-color:rgb(1, 116, 59) ;
+       
+   }
+   .cards:hover .tonic-pattern{
+    background-color:rgb(253, 183, 27) ;
+       
+   }
+   .cards:hover .vita-pattern{
+    background-color:rgb(183, 183, 183) ;
+       
+   }
+   .cards:hover .blue-pattern{
+    background-color:rgb(32, 65, 119);
+       
+   }
+
+   .cards:hover .berry-pattern{
+    background-color:rgb(126, 36, 71);
+       
+   }
+   .cards:hover .lime-pattern{
+    background-color:rgb(99, 74, 155);
+       
+   }
+   .cards:hover .apple-pattern{
+    background-color:rgb(156, 175, 69);
+       
+   }
+   .cards:hover .strawmellon-pattern{
+    background-color:rgb(218, 55, 98);
+       
+   }
+.cards:hover .card-img{
+    transform: scale(0.8);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    /* Ensure centering and reduced size */
+    object-fit: contain;
+    display: block;
+}
+
+.card-name{
+    font-size: 0.85rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+.card-price{
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #1a1a1a;
+    padding: 0 15px;
+    margin-top: 8px;
+}
+
+.card-mrp{
+    font-size: 0.7rem;
+    font-family: Arial, sans-serif;
+    color: #555;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+.card-btn{
+    margin: 0 15px;
+    width: calc(100% - 30px);
+    padding: 10px;
+    background: transparent;
+    border: 1.5px solid rgb(186, 31, 51);
+    color: rgb(186, 31, 51);
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card-btn:hover{
+    background: rgb(186, 31, 51);
+    color: #fff;
 }
